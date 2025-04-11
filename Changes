@@ -1,0 +1,26 @@
+Revision history for Perl module Geo::Webservice::OpenCellID
+
+0.06 2025-04-11
+  - Moved to GitHub from private repo
+  - Fixed documentation and spelling
+
+0.05 2009-03-03
+  - Moved some use statements to the correct package.
+  - Documentation
+
+0.04 2009-03-01
+  - Moved defaults for key and url to initialize method
+
+0.03 2009-03-01
+  - merged simular code from get, add, getMeasures into parent->call
+  - exposed data_xml for tests
+  - Response object moved hash into data
+
+0.02 2009-02-28
+  - Documentation
+  - Support for Response->cell->get->cellid or cellId
+  - Added measure->add example
+  - implemented XML::Simple ForceArray=>1
+
+0.01 2009-02-27
+  - original version; created by ExtUtils::ModuleMaker 0.51
